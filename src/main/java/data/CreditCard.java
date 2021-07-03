@@ -9,6 +9,4 @@ public abstract class CreditCard {
     String firstCode = String.valueOf(random.nextInt(9999));
     String secondCode = String.valueOf(random.nextInt(9999));
     String thirdCode = String.valueOf(random.nextInt(9999));
-
-    Date expireDate;
 }
